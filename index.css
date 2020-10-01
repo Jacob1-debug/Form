@@ -1,1 +1,78 @@
 ggg
+.fonts {
+    font-family:monospace;
+}
+
+h1{
+    text-shadow:1px 1px 7px grey;
+}
+
+body{
+    font-family:cursive;
+}
+/*.container{
+   background:-moz-linear-gradient(DeepSkyBlue, white 2%);
+   background:-webkit-linear-gradient(DeepSkyBlue, white );
+   background:linear-gradient(DeepSkyBlue,  white );
+}
+*/
+/*body {
+    background:-moz-linear-gradient( DeepSkyBlue,white 2%);
+   background:-webkit-linear-gradient( DeepSkyBlue,white );
+   background:linear-gradient(DeepSkyBlue, white );
+    margin-bottom: 100px;
+
+    padding:15px;
+} */
+
+.section{
+    background-color: DeepSkyBlue ;
+    padding-top:25px;
+    padding-bottom:25px;
+    border-radius: 10px;
+
+}
+.end{
+    text-align:right;
+    font-size: 5pt
+    padding-bottom:6px;
+}
+
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 75%;
+    /* To see the limits of the form */
+    padding: 2em;
+    border-radius: 6mm;
+    border: 5px solid gray;
+
+}
+
+fieldset{
+    border-radius: 6mm;
+}
+
+#survey{
+    background-color: white;
+}
+
+#levels{
+    width=20%
+}
+
+textarea{
+    border-radius: 4mm;
+    resize:vertical;
+}
+
+#submit{
+    text-align:center;
+
+}
+
+/*.container{
+    background: -moz-linear-gradient(red 90%); /* FF3.6-15 */
+/*  background: -webkit-linear-gradient(top,  rgba(169,228,247,1) 0%,rgba(15,180,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+/* background: linear-gradient( bottom,  rgba(169,228,247,1) 30%,rgba(15,180,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+,
+}

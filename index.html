@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Application Form</title>
 </head>
 <body>
-    
+
+<div class="section">
+    <form id="survey" >
+        <h1 class="fonts">Application Form to date my Sister</h1>
+        <h1 class="fonts">Instructions</h1>
+
+        <ol>
+            <li>Answer all questions</li>
+            <li>Incomplete applications would be rejected</li>
+            <li>Approval of this form means that the selected recipient pays all designated fees/dowry prices. Submitting the Form is Free! </li>
+            <li>There's high Competition. Candidates would be selected without any discrimaination of gender, race or religion. Applications would be reviewed wholistically based on <strong>financial ability</strong>, <strong>Character</strong> and perhaps <strong>😊 looks</strong></li>
+            <li>Take your IQ Test in section A from <a href=https://iqtest.com/quiz/iq-test/#>iqtest.com</a>  and upload your test results at the last section</li>
+            <li>All the best!</li>
+        </ol>
+
+        </br></br>
+
+
+        <fieldset>
+
+            <legend  ><strong>Personal Information</strong></legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name"   placeholder="Enter Name Here" ><br> </br>
+
+            <label for="gender" required>Gender <i>(Please Select One)</i>:</label>
+            </br>
+
+            <input type="radio" id="gender" name="gender" value="male" checked> Male<br>
+            <input type="radio" id="gender" name="gender" value="female" > Female</br> </br>
+
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" value="birthday" required><br><br>
+
+            <label for="address"> Address:</label>
+            <input type="address" id="address"  placeholder="Enter Address Here"> </br> </br>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="Enter Phone Number Here" required></br> </br>
+
+            <label for="education"> Education <i>(Please select One):</i>: </label> </br>
+            <input type="radio" id="education" name="Education" value="Middle-Level Diploma">Middle-Level Diploma </br>
+            <input type="radio" id="education"  name="Education" value="Bachelor's">Bachelor's </br>
+            <input type="radio" id="education" name="Education" value="Master's">Master's </br>
+            <input type="radio" id="education" name="Education" value="Doctorate">Doctorate </br>
+            </label> </br>
+
+            <label for="Previous Relationship Status" required> Recent Relationship Status: </label> </br>
+            <input type="radio" id="Previous Relationship Status" name="Relationship" type="Single" >Never Dated </br>
+            <input type="radio" id="Previous Relationship Status"  name="Relationship" type="Divorced" >Married and Divorced </br>
+            <input type="radio" id="Previous Relationship Status" name="Relationship" type="Dated" >Dated and Broken Up </br> </br>
+
+            <label for="IQ" >IQ:</label>
+            <input type="text" id="phone"  placeholder="Enter a Number" required></br>  </br>
+
+            <label for="date" required> Proposed Date for Meeting Up: </label> </br>
+            <input type="date" id="date" name="name" > </br> </br>
+
+            <label for="levels">In a level of (0-10) how much do you love my sister? </label>
+            <input id="levels" type="text" name="levels" ></br></br>
+
+        </fieldset>
+
+        </br> </br>
+
+        <fieldset>
+            <form>
+
+
+                <legend><strong>Essays Section</strong></legend>
+                <label for="message">In less than a hundred words, Describe what compelled you to make the First Move.(What makes you love her?)</label> </br></br>
+                <textarea id="message" type="text" placeholder=" Enter text Here" rows="4" cols="50" required></textarea> </br>
+
+                <label for="messsage">In the current world of chaos, Describe what makes me/us Trust you.( less than 50 words) </label></br> </br>
+                <textarea id="messsage" type="text" placeholder=" Enter text here" rows="4" cols="30" required></textarea>
+                </from>
+
+                </br></br>
+
+        </fieldset>
+        </br> </br>
+
+        <fieldset>
+            <legend>Optional(But Highly Recommended)</legend>
+            <p>Check all The Boxes that Apply</p>
+            <p>
+                <input type="checkbox" name="parents">My Parents are very rich</br>
+                <input type="checkbox" name="salary" >I work and earn a decent salary</br>
+                <input type="checkbox" name=relations>I have been in a relationship with  4 or less  people</br>
+                <input type="checkbox" name="quite">I am  generally a quite person</br>
+                <input type="checkbox" name="Religous">I am highly Religous</br>
+                <input type="checkbox" name="piercing">I have more than 2 piercings on my body</br>
+            </p>
+
+        </fieldset>
+
+
+        <p >Please upload a form containing 2 contacts of Reference and your IQ Test Results.</p>
+        <button>Attach File</button> </br></br>
+
+        <input id="submit" type="submit" value="Submit" text-align="center">
+
+        </br>
+        </br>
+        </br>
+        <marquee bgcolor=" F0F8FF" loop="-1"
+                 scrollamount="3" width="100%">
+            Thank you</marquee>
+    </form>
+
+
+
+
+
+</div>
 </body>
 </html>
